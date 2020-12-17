@@ -60,9 +60,16 @@
         ]
     },
     "repositories": {
-        "dev-package": {
+        "dev-package-wink": {
             "type" : "path",
             "url": "../packages/wink",
+            "options": {
+                "symlink": true
+            }
+        },
+        "dev-package-larafilter": {
+            "type" : "path",
+            "url": "../packages/release/larafilter",
             "options": {
                 "symlink": true
             }
